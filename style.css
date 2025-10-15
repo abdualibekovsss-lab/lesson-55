@@ -1,0 +1,23 @@
+
+.text:nth-child(5n) {
+    background-color: aquamarine;
+}
+
+.text:hover {
+    background-color: rgb(121, 141, 141);
+}
+
+.text:active {
+ background-color: indigo;
+ color: white;
+}
+
+.text::before {
+    content: '->>';
+}
+
+.text::after {
+    content: '-<<'; 
+    color: indigo;
+}
+
